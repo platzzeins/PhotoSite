@@ -1,0 +1,21 @@
+.searchBox{
+    margin: 0 auto;
+    color: antiquewhite;
+}
+
+form{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchRequest{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchRequest input{
+    text-align: center;
+}
+

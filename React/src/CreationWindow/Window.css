@@ -1,0 +1,95 @@
+.modal{
+    height: 100vh;
+    width: 100vw; 
+    /* background-color: rgb(212 11 255 / 5%);; */
+    background-image: linear-gradient(to right top, #d16ba551, #c777b852, #b983ca51, #aa8fd850, #9a9ae153, #8aa7ec5d, #79b2f450, #69bff853, #52d0fe56, #41dfff53, #46eefa51, #5ffbf152);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    transform: scale(0);
+    z-index: 1;
+}
+
+.modal.active{
+    transform: scale(1);
+}
+
+.modal__content{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    /* background-color: rgba(97, 97, 97, 0.382); */
+    height: 400px;
+    width: 600px;
+}
+
+
+input{
+    font-size: 20px;
+    font-family: "Literata";
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 120px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+#submit{
+    margin: 0 auto;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-family: "Literata";
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+.image-box {
+    position: relative;
+}
+
+.upper-text{
+    display: flex;
+    align-items: center;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.photo-card{
+    margin: 0;
+}
+
+
+.submit-message{
+    color: black;
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px;
+}

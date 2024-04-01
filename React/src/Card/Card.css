@@ -1,0 +1,68 @@
+.photo-card{
+    background-color: rgb(14, 15, 21);
+    width: 300px;
+    height: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.8);
+}
+
+.image-box{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.image{
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 0px 0px 5px 0px rgb(255, 242, 0);
+    border-radius: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Literata";
+    color: white;
+
+}
+
+.text{
+    width: 90%;
+    margin: 0 auto;
+}
+.bottom-text{
+    display:inline;
+}
+
+.author{
+    float: left;
+    margin: 0;
+}
+
+.genre{
+    float: right;
+    margin: 0;
+}
+
+.loader-card{
+    cursor: pointer;
+}
+
+.loader-hidden{
+    display: none;
+}
+
+.load{
+    height: 100%;
+}
+
+.load img{
+    width: 100%;
+}
+
+.load p{
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.parent-cards {
+    display: flex;
+    justify-content: center; /* выравнивание по центру по горизонтали */
+    flex-wrap: wrap; /* перенос строк, если контент не помещается */
+    z-index: -1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* выравнивание по центру по горизонтали */
+    gap: 40px; /* промежуток между карточками */
+    margin-top: 40px;
+}
